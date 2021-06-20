@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ</title>
+    <link rel="shortcut icon" href="image/LOGO.png">
+    <link rel="stylesheet" href="css/mycss.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+</head>
+<!--Body-->
+<body>
+  <!--Form đăng nhập-->
+  <div id="id01" class="modal">
+    <form class="modal-content animate" method="post">
+      <div class="container">
+        <label for="text"><b>Tài khoản</b></label>
+        <input type="text" placeholder="Nhập tài khoản" required>
+  
+        <label for="password"><b>Mật khẩu</b></label>
+        <input type="password" placeholder="Nhập mật khẩu" required>
+          
+        <button type="submit">Đăng nhập</button>
+        <label>
+          <input type="checkbox" checked="checked"> Nhớ mật khẩu
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Thoát</button>
+      </div>
+    </form>
+  </div>
+  <!--Form đăng nhập-->
+  <!--Form đăng kí-->
+  <div id="id02" class="modal">
+    <form class="modal-content animate" method="post">
+      <div class="container">
+        <label for="text"><b>Tài khoản</b></label>
+        <input type="text" placeholder="Nhập tài khoản" required>
+        
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Nhập email" required>
+
+        <label for="password"><b>Mật khẩu</b></label>
+        <input type="password" placeholder="Nhập mật khẩu" required>
+         
+        <label for="password"><b>Nhập lại mật khẩu</b></label>
+        <input type="password" placeholder="Nhập lại mật khẩu" required>
+
+        <button type="submit">Đăng ký</button>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Thoát</button>
+      </div>
+    </form>
+  </div>
+  <!--Form đăng kí-->
+  <a href="https://www.facebook.com/sanglynn.1609/" target="_blank" ><img class="messenger" src="image/messenger-icon.gif"></a>
+    <div class="header">
+        <a href="#" class="img-header"><img class="img-header" src="image/LOGO.png"></a>
+        <input class="res" type="text" placeholder="Tìm kiếm..">
+        <div class="header-right">
+        <a class="active" href="#" target="_self">Trang chủ</a>
+        <a onclick="document.getElementById('id01').style.display='block',document.getElementById('id02').style.display='none'">Đăng nhập</a>
+        <a onclick="document.getElementById('id02').style.display='block',document.getElementById('id01').style.display='none'">Đăng kí</a>
+        <a href="#contact">Liên hệ</a>
+        <a href="#about">Về chúng tôi</a>    
+        </div>
+    </div>
+    <img class="img-top" src="image/SALE BANNER.png">
+    <!-- Menu -->
+    <div class="navbar_banner">
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">DANH MỤC</button>
+            <div class="dropdown-content">
+              <a href="#">Laptop</a>
+              <a href="#">Case PC Gears</a>
+              <a href="#">Gaming Gears</a>
+              <a href="#">Built PC Yourselft</a>
+              <a href="#">ROG - Republic of Gamer</a>
+            </div>
+          </div>
+        <a href="#home">CỞ SỞ BẢO HÀNH</a>
+        <a href="#news">CHÍNH SÁCH BẢO HÀNH</a>
+        <a target="_blank" href="../4. Xây dựng cấu hình/index.html">XÂY DỰNG CẤU HÌNH</a>
+      </div>
+      <div class="cart">
+        <a href="#" title="Giỏ hàng"><img src="./image/cart.png"></a>
+      </div>
+    </div>
+      <!-- Menu -->
+      <div style="clear: left;"></div>
+    <div class="wrapper">
+
+        <div class="slide">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="image/slide_1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                  <img src="image/slide_2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                  <img src="image/slide_3.jpg" style="width:100%">
+                </div>
+                </div>
+ 
+        </div>
+
+        <div class="left_menu">
+            <div class="img-detail">
+                <img src="image/left_image1.jpg" class="image_leftmenu">
+            </div>
+            <div class="img-detail1">
+                <img src="image/left_image2.jpg" class="image_leftmenu">
+            </div>
+        </div>
+
+    </div>
+    <!-- Danh sách Store -->
+    <div class="store">
+        <div class="store_detail">
+            <a href="#"><img src="image/Asus-store.jpg" class="anh"></a>
+        </div>
+
+        <div class="store_detail">
+            <a href="#"><img src="image/ACER-store.jpg" class="anh"></a>
+        </div>
+
+        <div class="store_detail">
+            <a href="#"><img src="image/MSI-store.jpg" class="anh"></a>
+        </div>
+
+        <div class="store_detail">
+            <a href="#"><img src="image/PC-store.jpg" class="anh"></a>
+        </div>
+    </div>
+    <!-- Danh sách Store -->
+    <!--Menu sản phẩm-->
+    <div class="LAPTOPGAMNG"><p>LAPTOP GAMING BÁN CHẠY</p></div>
+    <div style="text-align: center;margin: 20px;">
+		<div class="sanpham" style="width: 19rem;">
+			<a href="#" target="_blank"><img src="image/NITRO-5-AN515-56-79U2-3-300x300.jpg" width="290px"></a>
+			<div class="card">
+				<a href="#" title="Laptop Acer Nitro 5 AN515-56-79U2 ">Laptop Acer Nitro 5 AN515-56-79U2GTX 1650 4GB Intel Core i7 11370H 8GB 512GB 15.6 FHD IPS 144Hz Multicolor Win 10</a>
+				<div style="text-align: center;">
+				<p class="price-text" style="color: rgb(99, 97, 97);"><strike>25.000.000</strike><sup>đ</sup></p>
+				<p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">20.990.000<sup>đ</sup></p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="sanpham" style="width: 19rem;">
+			<a href="../2. Chi tiết sản phẩm/index.html" target="_blank"><img src="image/STRIX-G15-G512-IAL013T-2-300x300.jpg" width="290px"></a>
+			<div class="card">
+				<a href="../2. Chi tiết sản phẩm/index.html" title="Laptop Asus ROG Strix G15 G512-IAL013T">Laptop Asus ROG Strix G15 G512-IAL013T Geforce GTX 1650Ti 4GB Intel Core i5 10300H 8GB 512GB 15.6″ 144Hz IPS RGB Keyboard Win 10</a>
+				<div style="text-align: center;">
+				<p class="price-text" style="color: rgb(99, 97, 97);"><strike>35.000.000</strike><sup>đ</sup></p>
+				<p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">32.990.000<sup>đ</sup></p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="sanpham" style="width: 19rem;">
+			<a href="#" target="_blank"><img src="image/ZEPHYRUS-G14-GA401II-HE019T-7-300x300.jpg" width="290px"></a>
+			<div class="card">
+				<a href="#" title="Laptop ASUS ROG Zephyrus G14 GA401II-HE019T">Laptop ASUS ROG Zephyrus G14 GA401II-HE019T Geforce GTX 1650Ti 4GB Ryzen 7-4800HS 16GB 512GB 14″ 120Hz IPS Eclipse Gray Win 10</a>
+				<div style="text-align: center;">
+				<p class="price-text" style="color: rgb(99, 97, 97);"><strike>40.000.000</strike><sup>đ</sup></p>
+				<p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">35.990.000<sup>đ</sup></p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="sanpham" style="width: 19rem;">
+			<a href="#" target="_blank"><img src="image/TRITON-500-PT515-52-78PN-2-300x300.jpg" width="290px"></a>
+			<div class="card">
+				<a href="#" title="Laptop Acer Predator Triton 500 PT515-52-78PN">Laptop Acer Predator Triton 500 PT515-52-78PN NH.Q6XSV.001 RTX 2070 Super 8GB Intel Core i7 10875H 32GB 1TB 15.6FHD IPS 300Hz G-sync Perkey RGB Win 10</a>
+				<div style="text-align: center;">
+				<p class="price-text" style="color: rgb(99, 97, 97);"><strike>69.000.000</strike><sup>đ</sup></p>
+				<p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">45.990.000<sup>đ</sup></p>
+				</div>
+			</div>
+		</div>
+    </div>
+    <!--Menu sản phẩm-->
+    <!--Slide sản phẩm 2-->
+    <div class="menu_sp2">
+        <div class="image-right">
+            <img src="image/asus-ROG-STORE.jpg">
+        </div>
+        <div class="menusp_left">
+          <div class="banner">
+            <div class="banner_sale">
+                <h3>ROG OFFCIAL STORE</h3>
+            </div>
+          </div>
+            <div class="sanpham1">
+
+              <div class="sanpham" style="width: 19rem;">
+                <a href="#" target="_blank"><img src="image/TUF-A17-FA706II-H7286T-1-768x768 (1).jpg" width="290px"></a>
+                <div class="card">
+                  <a href="#" title="LAPTOP GAMING ASUS TUF A17 FA706II-H7286T">LAPTOP GAMING ASUS TUF A17 FA706II-H7286T GTX 1650TI 4GB RYZEN 7-4800H 8GB 512GB 17.3″ FHD IPS 120HZ FORTRESS GRAY RGB</a>
+                  <div style="text-align: center;">
+                  <p class="price-text" style="color: rgb(99, 97, 97);"><strike>25.000.000đ</strike><sup>đ</sup></p>
+                  <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">23.900.000đ<sup>đ</sup></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sanpham" style="width: 19rem;">
+                <a href="#" target="_blank"><img src="image/STRIX-G15-G513QC-HN015T-2-768x768.jpg" width="290px"></a>
+                <div class="card">
+                  <a href="#" title="LAPTOP ASUS ROG STRIX G15 G513QC-HN015T">LAPTOP ASUS ROG STRIX G15 G513QC-HN015T GEFORCE RTX 3050 4GB AMD R7 5800H 8GB 512GB 15.6″ 144HZ FHD IPS 4 ZONES WIN 10</a>
+                  <div style="text-align: center;">
+                  <p class="price-text" style="color: rgb(99, 97, 97);"><strike>45.000.00đ</strike><sup>đ</sup></p>
+                  <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">42.900.000đ<sup>đ</sup></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sanpham" style="width: 19rem;">
+                <a href="#" target="_blank"><img src="image/SCAR-15-G533QM-HQ074T-1-768x768.jpg" width="290px"></a>
+                <div class="card">
+                  <a href="#" title="LAPTOP ASUS ROG STRIX SCAR 15 G533QM-HQ074T">LAPTOP ASUS ROG STRIX SCAR 15 G533QM-HQ074T GEFORCE RTX 3060 6GB AMD RYZEN 9 5900HX 16GB 1TB 15.6″ QHD IPS 165HZ OPTICAL KEYBOARD RGB WIN 10</a>
+                  <div style="text-align: center;">
+                  <p class="price-text" style="color: rgb(99, 97, 97);"><strike>50.000.00đ</strike><sup>đ</sup></p>
+                  <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">46.990.000đ<sup>đ</sup></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--Slide sản phẩm 2-->
+
+    <!--Slide sản phẩm 3-->
+    <div class="sanpham3">
+        <div class="left_sanpham3">
+
+          <div class="banner">
+            <div class="banner_sale_1">
+                <h3>MÀN HÌNH, LINH KIỆN PC</h3>
+            </div>
+          </div>
+
+          <div class="all_linhkien">
+           <div class="sanpham4" style="width: 18rem;">
+            <a href="#" target="_blank"><img src="image/VG27WQ-00_compressed-768x768.jpg" width="290px"></a>
+            <div class="card">
+              <a href="#" title="MÀN HÌNH ASUS VP279QG">MÀN HÌNH ASUS VP279QGL IPS 27″ 75HZ FULLHD EYE CARE CHÂN XOAY</a>
+              <div style="text-align: center;">
+              <p class="price-text" style="color: rgb(99, 97, 97);"><strike>4.900.000đ</strike><sup>đ</sup></p>
+              <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">4.000.000đ<sup>đ</sup></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sanpham4" style="width: 18rem;">
+            <a href="#" target="_blank"><img src="image/VP279QGL-00_compressed-768x768.jpg" width="290px"></a>
+            <div class="card">
+              <a href="#" title="Màn Hình ASUS VP279QGL">Màn Hình ASUS VP279QGL IPS 27″ 75Hz FullHD Eye Care Chân Xoay</a>
+              <div style="text-align: center;">
+              <p class="price-text" style="color: rgb(99, 97, 97);"><strike>5.100.000đ</strike><sup>đ</sup></p>
+              <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">4.990.000<sup>đ</sup></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sanpham4" style="width: 18rem;">
+            <a href="#" target="_blank"><img src="image/xg279q-gumdam-ava-768x768.jpg" width="290px"></a>
+            <div class="card">
+              <a href="#" title="Màn Hình ASUS ROG Strix XG279Q-G Gundam Edition">Màn Hình ASUS ROG Strix XG279Q-G Gundam Edition 27″ IPS 2K 170HzOc</a>
+              <div style="text-align: center;">
+              <p class="price-text" style="color: rgb(99, 97, 97);"><strike>19.000.000</strike><sup>đ</sup></p>
+              <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">17.990.000<sup>đ</sup></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="img-right">
+            <img src="./image/Màn-hình-mua-kèm-PC.jpg" class="image_phai">
+        </div>
+    </div>
+    <!--Slide sản phẩm 3-->
+    <div style="clear: both;"></div>
+    <!--SLIDE SẢN PHẨM 4-->
+    <div class="menu_sp2">
+      <div class="image-right">
+          <img src="image/PC.jpg">
+      </div>
+      <div class="menusp_left">
+        <div class="banner">
+          <div class="banner_sale">
+              <h3>LINH KIỆN PC</h3>
+          </div>
+        </div>
+          <div class="sanpham1">
+
+            <div class="sanpham_vga" style="width: 15rem;">
+              <a href="#" target="_blank"><img src="image/3090_aorus_Master_compressed-768x768.jpg" width="235px"></a>
+              <div class="card">
+                <a href="#" title="LAPTOP GAMING ASUS TUF A17 FA706II-H7286T">VGA GeForce RTX 3090 Aorus Master 24G</a>
+                <div style="text-align: center;">
+                <p class="price-text" style="color: rgb(99, 97, 97);"><strike>76.000.000đ</strike><sup>đ</sup></p>
+                <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">75.900.000đ<sup>đ</sup></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sanpham_vga" style="width: 15rem;">
+              <a href="#" target="_blank"><img src="image/3080Ti_VISION_OC_compressed-768x768.jpg" width="235px"></a>
+              <div class="card">
+                <a href="#" title="Gigabyte GeForce RTX 3080Ti Vision OC 12G">Gigabyte GeForce RTX 3080Ti Vision OC 12G</a>
+                <div style="text-align: center;">
+                <p class="price-text" style="color: rgb(99, 97, 97);"><strike>54.000.000đ</strike><sup>đ</sup></p>
+                <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">52.900.000đ<sup>đ</sup></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sanpham_vga" style="width: 15rem;">
+              <a href="#" target="_blank"><img src="image/43657_vga_asu_rtx3080tirogo12ggaming_1.jpg" width="235px"></a>
+              <div class="card">
+                <a href="#" title="VGA Asus ROG STRIX-RTX 3080 Ti-O12G-GAMING">VGA Asus ROG STRIX-RTX 3080 Ti-O12G-GAMING</a>
+                <div style="text-align: center;">
+                <p class="price-text" style="color: rgb(99, 97, 97);"><strike>52.000.000đ</strike><sup>đ</sup></p>
+                <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">50.900.000đ<sup>đ</sup></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sanpham_vga" style="width: 15rem;">
+              <a href="#" target="_blank"><img src="image/43467_vga_asu_rtx3060koo12g_a.jpg" width="235px"></a>
+              <div class="card">
+                <a href="#" title="VGA Asus KO-RTX 3060-O12G-GAMING">VGA Asus KO-RTX 3060-O12G-GAMING</a>
+                <div style="text-align: center;">
+                <p class="price-text" style="color: rgb(99, 97, 97);"><strike>25.000.000đ</strike><sup>đ</sup></p>
+                <p class="price-text" style="background-color: rgb(236, 30, 30);color: aliceblue;">23.900.000đ<sup>đ</sup></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+  </div>
+    <!--SLIDE SẢN PHẨM 4-->
+    <!--Slide tin tức-->
+    </div>
+
+    <div class="slide_4">
+      <div class="LAPTOPGAMNG"><p>TIN TỨC, KHUYẾN MÃI</p></div>
+      <div class="news">
+          <div>
+              <img src="./image/news/rog_image.jpg">
+          </div>
+          <div class="text_rog">
+            ASUS ROG công bố laptop gaming 2-trong-1 Flow X13 cùng dải sản phẩm trang bị card đồ họa NVIDIA RTX 30
+          </div>
+      </div>
+      <div class="tra_gop">
+          <img src="./image/news/Đăng-ký-mua-trả-góp.jpg">
+      </div>
+    </div>
+    <!--Form điền thông tin-->
+    <div class="form">
+        <div class="box">
+          <h1>ĐĂNG KÍ NHẬN THÔNG TIN KHUYẾN MÃI</h1>
+          <form>
+              <input type="email" placeholder="Nhập email..." required>
+              <input type="submit" value="Gửi thông tin" style="cursor:pointer">
+          </form>
+        </div>
+        <img src="./image/news/ASUS.jpg" style="width:100%">  
+    </div>
+    <!--Form điền thông tin-->
+    <!--Footer-->
+    <div class="footer">
+    <div class="footer_1">
+      <div>
+        <img src="./image/LOGO.png" style="width:40%">
+      </div>
+      <div style="font-size: 13pt;margin-top: 20px;line-height: 30pt;">
+        Chuyên cung cấp Laptop PC chính hãng.<br>
+        Cam kết 1 đổi 1 do lỗi nhà sản xuất.<br>
+      </div>
+      <img src="./image/news/bocongthuong.webp" style="width:40%">
+    </div>
+    <div class="footer_2">
+      <div>
+        Support
+      </div>
+      <div>
+        <nav style="font-size: 15pt;margin-top: 20px;">
+          <a>Chính sách đổi trả</a>
+          <a>Mua trả góp</a>
+          <a>Chính sách thu cũ đổi mới</a>
+          <a>Lắp đặt tại nhà</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer_3">
+      <div>
+        Địa chỉ
+      </div>
+      <div style="margin-top: 5px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.657185685294!2d105.7827275148837!3d21.046398585988733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abb158a2305d%3A0x5c357d21c785ea3d!2zxJDhuqFpIGjhu41jIMSQaeG7h24gTOG7sWM!5e0!3m2!1svi!2s!4v1623263415517!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="js/myjavaspicrt.js"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0" nonce="xajqYNBS"></script>
+</body>
+</html>

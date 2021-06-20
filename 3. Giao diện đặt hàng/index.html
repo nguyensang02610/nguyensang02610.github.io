@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ĐẶT HÀNG</title>
+    <link rel="shortcut icon" href="image/LOGO.png">
+    <link rel="stylesheet" href="css/mycss.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+</head>
+<!--Body-->
+<body>
+  <!--Form đăng nhập-->
+  <div id="id01" class="modal">
+    <form class="modal-content animate" method="post">
+      <div class="container">
+        <label for="text"><b>Tài khoản</b></label>
+        <input type="text" placeholder="Nhập tài khoản" required>
+  
+        <label for="password"><b>Mật khẩu</b></label>
+        <input type="password" placeholder="Nhập mật khẩu" required>
+          
+        <button type="submit">Đăng nhập</button>
+        <label>
+          <input type="checkbox" checked="checked"> Nhớ mật khẩu
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Thoát</button>
+      </div>
+    </form>
+  </div>
+  <!--Form đăng nhập-->
+  <!--Form đăng kí-->
+  <div id="id02" class="modal">
+    <form class="modal-content animate" method="post">
+      <div class="container">
+        <label for="text"><b>Tài khoản</b></label>
+        <input type="text" placeholder="Nhập tài khoản" required>
+        
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Nhập email" required>
+
+        <label for="password"><b>Mật khẩu</b></label>
+        <input type="password" placeholder="Nhập mật khẩu" required>
+         
+        <label for="password"><b>Nhập lại mật khẩu</b></label>
+        <input type="password" placeholder="Nhập lại mật khẩu" required>
+
+        <button type="submit">Đăng ký</button>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Thoát</button>
+      </div>
+    </form>
+  </div>
+  <!--Form đăng kí-->
+
+  <a href="https://www.facebook.com/sanglynn.1609/" target="_blank"><img class="messenger" src="image/messenger-icon.gif"></a>
+    <div class="header">
+        <a href="#" class="img-header"><img class="img-header" src="image/LOGO.png"></a>
+        <input class="res" type="text" placeholder="Tìm kiếm..">
+        <div class="header-right">
+        <a class="active" href="../1 .Trang chủ + đăng nhập + đăng kí/index.html" target="_self">Trang chủ</a>
+        <a onclick="document.getElementById('id01').style.display='block',document.getElementById('id02').style.display='none'">Đăng nhập</a>
+        <a onclick="document.getElementById('id02').style.display='block',document.getElementById('id01').style.display='none'">Đăng kí</a>
+        <a href="#contact">Liên hệ</a>
+        <a href="#about">Về chúng tôi</a>    
+        </div>
+    </div>
+    <!-- Menu -->
+    <div class="navbar">
+      <div class="dropdown">
+          <button class="dropbtn">DANH MỤC</button>
+          <div class="dropdown-content">
+            <a href="#">Laptop</a>
+            <a href="#">Case PC Gears</a>
+            <a href="#">Gaming Gears</a>
+            <a href="#">Built PC Yourselft</a>
+            <a href="#">ROG - Republic of Gamer</a>
+          </div>
+        </div>
+        
+      <a href="#home">CỞ SỞ BẢO HÀNH</a>
+      <a href="#news">CHÍNH SÁCH BẢO HÀNH</a>
+      <a href="../4. Xây dựng cấu hình/index.html">XÂY DỰNG CẤU HÌNH</a>
+    </div>
+    <div class="cart">
+      <a href="#" title="Giỏ hàng"><img src="./image/cart.png"></a>
+    </div>
+  </div>
+      <!-- Menu -->
+      <!-- TÊN SẢN PHẨM-->
+      <div class="text_banner"><p>THÔNG TIN THANH TOÁN</p></div>
+      <!--Bang san pham-->
+      <div class="product">
+        <form class="cart_order" method="POST">
+          <table class="table_product">
+            <thead>
+              <tr>
+                <th class="product_thumbail">&nbsp;</th>
+                <th class="product_sp">Sản phẩm</th>
+                <th class="product_price">Giá</th>
+                <th class="product_amount">Số lượng</th>
+                <th class="product_total">Thành tiền</th>
+              </tr>
+            </thead>
+            <tbody>
+              <td class="product_thumbail"><img src="./image/STRIX-G15-G512-IAL013T-2-300x300.jpg"></td>
+              <td class="product_sp" data-title="Sản phẩm">Laptop Asus ROG Strix G15 G512-IAL013T Geforce GTX 1650Ti 4GB Intel Core i5 10300H 8GB 512GB 15.6″ 144Hz IPS RGB Keyboard Win 10</td>
+              <td class="product_price text_price">19,500,000đ</td>
+              <td class="product_amount"><input type="number" value="0" id="number" min="1" onchange="tinhtien()"></td>
+              <td class="product_total"><p id="tongtien"></p></td>
+            </tbody>
+
+          </table>
+        </form>
+        
+      </div>
+      <div style="clear: left;"></div>
+      <!--Thông tin thanh toán-->
+      <div class="text_banner"><p>THÔNG TIN MUA HÀNG</p></div>
+      <div class="payment_information">
+        <div class="left">
+            <input class="name" type="text" placeholder="Tên khách hàng">
+            <input class="name" type="tel" placeholder="Số điện thoại">
+            <input class="name" type="email" placeholder="Email">
+            <input class="name" type="text" placeholder="Địa chỉ">
+        </div>
+        <div class="right">
+          <input class="name" type="text" placeholder="Ghi chú" style="height: 10rem;">
+          <input type="checkbox" id="checkbox" onchange="thanhtoan()">Đồng ý với điều khoản và chính sách bảo hành
+        </div>
+      </div>
+    <!--Footer-->
+    <div style="clear: left;"></div>
+    <button class="btn_order" id="dathang">ĐẶT HÀNG</button>
+    <div class="footer">
+    <div class="footer_1">
+      <div>
+        <img src="./image/LOGO.png" style="width:40%">
+      </div>
+      <div style="font-size: 13pt;margin-top: 20px;line-height: 30pt;">
+        Chuyên cung cấp Laptop PC chính hãng.<br>
+        Cam kết 1 đổi 1 do lỗi nhà sản xuất.<br>
+      </div>
+      <img src="./image/news/bocongthuong.webp" style="width:40%">
+    </div>
+    <div class="footer_2">
+      <div>
+        Support
+      </div>
+      <div>
+        <nav style="font-size: 15pt;margin-top: 20px;">
+          <a href="#">Chính sách đổi trả</a>
+          <a href="#">Mua trả góp</a>
+          <a href="#">Chính sách thu cũ đổi mới</a>
+          <a href="#">Lắp đặt tại nhà</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer_3">
+      <div>
+        Địa chỉ
+      </div>
+      <div style="margin-top: 5px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.657185685294!2d105.7827275148837!3d21.046398585988733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abb158a2305d%3A0x5c357d21c785ea3d!2zxJDhuqFpIGjhu41jIMSQaeG7h24gTOG7sWM!5e0!3m2!1svi!2s!4v1623263415517!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="js/myjavaspicrt.js"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0" nonce="xajqYNBS"></script>
+</body>
+</html>

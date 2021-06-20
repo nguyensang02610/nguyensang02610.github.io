@@ -1,0 +1,123 @@
+@media screen and (max-width: 750px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+    .res{
+      display: none;
+    }
+    .img-top{
+      display: none;
+    }
+
+    .wrapper{
+      text-align: center;
+      display: block;
+    }
+    /* //slide */
+    .img_showslide{
+      width: 95%;
+      margin: 2% 2.5% 0% 2.5%;
+    }
+    .price{
+      width: 95%;
+      margin: 2% 2.5% 0% 2.5%;
+    }
+
+    .btn2{
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .btn1{
+      text-align: center;
+      
+      width: 100%;
+    }
+    /* //Cau hinh chi tiét */
+
+    .cauhinh p{
+      font-size: 10pt;
+    }
+
+    .text_2{
+      text-align: center;
+    }
+    
+    .text_2 p{
+      font-size: 10pt;
+      line-height: 1.4;
+      height: 2em;
+      margin-bottom: 28px;
+      color: #57c3f5;
+    }
+
+    .btn3{
+      width: 50%;
+      margin: 2% 25% 0 25%;
+      background-color: #ff3838;
+      line-height: 2rem;
+    
+    }
+
+    .payment_information{
+      width: 90%;
+      margin: 2% 5% 0% 5%;
+    }
+    
+    .left{
+      width: 100%;
+      margin-right: 4%;
+    }
+    
+    .right{
+      width: 100%;
+    }
+
+    .btn_order{
+      width: 50%;
+      margin: 5% 25% 2% 25%;
+    }
+
+    /*Footer*/
+    .footer{
+      width: 90%;
+      margin: 2% 5% 0% 5%;
+      background-color: #bbb;
+    }
+    
+    .footer_1{
+      text-align: center;
+      font-size: 2rem;
+      width: 100%;
+    }
+    .footer_2{
+      text-align: center;
+      font-size: 2rem;
+      width: 100%;
+    }
+    .footer_3{
+      text-align: center;
+      font-size: 2rem;
+      width: 100%;
+    }
+    
+    .footer_4{
+      text-align: center;
+      font-size: 2rem;    
+      width: 100%;
+    }
+    .footer_2 a{
+      display: block;
+      line-height: 30pt;
+    }
+    .footer_3 a{
+      display: block;
+      line-height: 30pt;
+    }
+  }
